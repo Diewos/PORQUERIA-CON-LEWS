@@ -34,24 +34,36 @@ div.caixa p{
     margin:  0px 150px;
 } 
 
-
 table.tabela {
-margin: 80px auto;
 width: 80%;
+margin: 80px auto;
+border-collapse: separate;
+border-spacing: 30px 0;
 }
 
-td.tabela {
-    padding: 0px 15px ;
-}
 
+.paragrafito{
+    color: #5d75aa;
+    text-align: justify;
+    vertical-align: text-top;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+}
 
 table.tabela img{
 border-radius: 4px;
-width: 300px
+width: 100%;
 }
 
 table h1 {
+    color:#22303d;
     font-size: 2em;
     font-family: "Nunito", serif;
-    
+    font-weight: 800;
+}
+
+table small {
+    color:  #89c0f3;
+    font-family: "Poppins", serif;
+    font-weight: 700;
 }
