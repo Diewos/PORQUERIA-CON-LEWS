@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+div.imagem {
+    margin: auto;
+    background-image: url(img/meio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+div.caixa {
+    display: block;
+    margin: auto;
+    width: 100% ;
+    margin: 0px;
+    padding: 50px 0px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+div.caixa p{
+    font-family: "Nunito", serif;
+    font-weight: 800;
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    text-align: center;
+    margin:  0px 150px;
+} 
+
+
+table.tabela {
+margin: 10%;
+}
+
+table.tabela img{
+border-radius: 4px;
+max-width: 100%;
+}
+
+table h1 {
+    font-size: 2em;
+    font-family: "Nunito", serif;
+    
+}
