@@ -36,12 +36,18 @@ div.caixa p{
 
 
 table.tabela {
-margin: 10%;
+margin: 80px auto;
+width: 80%;
 }
+
+td.tabela {
+    padding: 0px 15px ;
+}
+
 
 table.tabela img{
 border-radius: 4px;
-max-width: 100%;
+width: 300px
 }
 
 table h1 {
