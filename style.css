@@ -41,6 +41,10 @@ border-collapse: separate;
 border-spacing: 30px 0;
 }
 
+td {
+    width: 20%;
+    vertical-align: middle;
+}
 
 .paragrafito{
     color: #5d75aa;
@@ -50,10 +54,42 @@ border-spacing: 30px 0;
     font-family: "Poppins", serif;
 }
 
+
 table.tabela img{
-border-radius: 4px;
-width: 100%;
+    border-radius: 4px;
+    width: 100px;
+    }   
+
+
+@media screen and (min-width : 800px) {
+    table.tabela img{
+        border-radius: 4px;
+        width: 200px;
+        }    
 }
+
+
+@media screen and (min-width : 1000px) {
+    table.tabela img{
+        border-radius: 4px;
+        width: 250px;
+        }    
+}
+
+@media screen and (min-width : 1250px) {
+    table.tabela img{
+        border-radius: 4px;
+        width: 300px;
+        }    
+}
+
+@media screen and (min-width : 1500px) {
+    table.tabela img{
+        border-radius: 4px;
+        width: 350px;
+        }    
+}
+
 
 table h1 {
     color:#22303d;
@@ -66,4 +102,25 @@ table small {
     color:  #89c0f3;
     font-family: "Poppins", serif;
     font-weight: 700;
+}
+
+footer {
+    color: white;
+    font-family: "Poppins", serif;
+    font-variant: small-caps;
+    font-size: 0.9em;
+    display: block;
+    margin: auto;
+    margin: 0px;
+    padding: 25px 0px;
+    background-color: rgb(14, 165, 224);
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    text-decoration: underline;
 }
