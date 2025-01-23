@@ -1,12 +1,16 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*Luis*/
+
+/*Formatações do Body, tirar os margens*/
 body {
     margin: 0;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     width: 100%;
 }
 
+/*Formatações do Cabeçalho*/
 nav {
     display: flex;
     justify-content: center;
@@ -44,6 +48,7 @@ nav a:hover {
     text-align: center;
 }
 
+/*Formatações do Titulo*/
 .titulo h1 {
     font-variant: small-caps;
     font-weight: 800;
@@ -61,21 +66,22 @@ nav a:hover {
     font-size: 1em;
 }
 
+/*Formatação das tabelas com os paises*/
 .tabela-paises {
     width: 80%;
     margin: auto;
     padding-bottom: 70px;
 }
 
-.texto-region td {
+.td-region {
     vertical-align: top;
-    padding: 15px;
 }
+
 
 .texto-region {
     font-family: "Nunito";
     font-size: 0.7em;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     color: #777777;
 }
 
@@ -112,10 +118,11 @@ nav a:hover {
 }
 
 
-/* DIEGOOOOOOOOOO -> */
+/* Diego */
 
 
 
+/*Formataçoes Da Imagem e Quadro*/
 
 div.imagem {
 margin: 75px auto;
@@ -145,14 +152,16 @@ font-size: 1.1em;
 text-align: center;
 color: white;
 text-align: center;
-margin:  0% auto;
+margin:  0 auto;
 } 
+
+/*Formatações da Tabela com destinos turisticos*/
 
 table.tabela {
 width: 80%;
 margin: 100px auto;
 border-collapse: separate;
-border-spacing: 25px 0;
+border-spacing: 25px 0px;
 }
 
 .paragrafito{
@@ -164,7 +173,7 @@ font-size: 0.8em;
 font-family: "Poppins", serif;
 }
 
-/*Media Queries para as Imagems da tabela*/
+/*Media Queries para as Imagems da tabela com destinos turisticos*/
 
 table.tabela img{
 border-radius: 4px;
@@ -197,6 +206,7 @@ width: 300px;
 }    
 }
 
+/*Fim das MediaQueries*/
 
 td.titulo {
 color:#22303d;
@@ -205,6 +215,7 @@ font-family: "Nunito", serif;
 font-weight: 800;
 }
 
+
 table small {
 color:  #89c0f3;
 font-family: "Poppins", serif;
@@ -212,7 +223,7 @@ font-size: 0.6em;
 font-weight: 700;
 }
 
-
+/*Formataçoes do Rodapé da Pagina*/
 footer {
 display: block;
 margin: 0px auto;
@@ -227,8 +238,10 @@ text-align: center;
 
 footer a{
 text-decoration: none;
-color: black;
-font-size: 0.8em;
+color: #22303d;
+font-size: 0.79em;
+font-weight: 600;
+margin: 0px 10px;
 }
 footer a:hover {
 text-decoration: underline;
