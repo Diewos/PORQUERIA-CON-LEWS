@@ -1,126 +1,231 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-    padding: 0px;
-    margin: 0px;
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
-div.imagem {
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 165, 224);
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: rgb(34, 48, 61);
+    padding: 28px 15px;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    font-variant: small-caps;
+    transition: background-color 0.9s ease;
+}
+
+nav a:hover {
+    background-color: rgba(34, 48, 61, 0.8);
+    color: rgb(228, 213, 194);
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    height: 60px;
+}
+
+.centrado {
     margin: auto;
-    background-image: url(img/meio.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 150px 0px;
+    width: 50%;
+    text-align: center;
+}
+
+.titulo h1 {
+    font-variant: small-caps;
+    font-weight: 800;
+    margin-top: 80px;
+    font-family: 'Nunito', serif;
+    font-size: 4.5em;
+}
+
+.titulo p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin: 0px 55px 150px 55px;
+    color: #457b9d;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.tabela-paises {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.texto-region td {
+    vertical-align: top;
+    padding: 15px;
+}
+
+.texto-region {
+    font-family: "Nunito";
+    font-size: 0.7em;
+    margin: 0px 0px 0px 0px;
+    color: #777777;
+}
+
+
+.bandeira {
+    padding: 0%;
+}
+.bandeira img {
+    width: 90px;
+    margin:0px;
+    text-align: center;
+}
+
+.bandeira h2 {
+    font-size: 4.5em;
+    color: #22303d;
+    font-family: "Nunito";
+    margin: 0px;
+    padding: 0px 40px;
+}
+
+.texto-info {
+    font-size: 0.9em;
+    color: #457b9d;
+    margin: 0px 0px 30px 0px;
+    font-weight: 800;
+}
+
+.imagen-columna img { 
+    width: 420px;
+    border-radius: 8px;
+    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* DIEGOOOOOOOOOO -> */
+
+
+
+
+div.imagem {
+margin: auto;
+background-image: url("img/meio.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+padding: 150px 0px;
 }
 
 div.caixa {
-    display: block;
-    margin: auto;
-    width: 100% ;
-    margin: 0px;
-    padding: 50px 0px;
-    background-color: rgba(0, 0, 0, 0.466);
+display: block;
+margin: auto;
+width: 100% ;
+margin: 0px;
+padding: 50px 0px;
+background-color: rgba(0, 0, 0, 0.466);
 }
 
 div.caixa p{
-    font-family: "Nunito", serif;
-    font-weight: 800;
-    font-size: 1.1em;
-    text-align: center;
-    color: white;
-    text-align: center;
-    margin:  0px 150px;
+font-family: "Nunito", serif;
+font-weight: 800;
+font-size: 1.1em;
+text-align: center;
+color: white;
+text-align: center;
+margin:  0px 150px;
 } 
 
 table.tabela {
 width: 80%;
-margin: 80px auto;
+margin: 100px auto;
 border-collapse: separate;
 border-spacing: 30px 0;
 }
 
-td {
-    width: 20%;
-    vertical-align: middle;
-}
 
 .paragrafito{
-    color: #5d75aa;
-    text-align: justify;
-    vertical-align: text-top;
-    font-weight: 700;
-    font-family: "Poppins", serif;
+color: #5d75aa;
+text-align: justify;
+vertical-align: text-top;
+font-weight: 700;
+font-size: 0.8em;
+font-family: "Poppins", serif;
 }
 
 
 table.tabela img{
-    border-radius: 4px;
-    width: 100px;
-    }   
+border-radius: 4px;
+width: 100px;
+}   
 
 
 @media screen and (min-width : 800px) {
-    table.tabela img{
-        border-radius: 4px;
-        width: 200px;
-        }    
+table.tabela img{
+width: 200px;
+}    
 }
 
 
 @media screen and (min-width : 1000px) {
-    table.tabela img{
-        border-radius: 4px;
-        width: 250px;
-        }    
+table.tabela img{
+width: 250px;
+}    
 }
 
 @media screen and (min-width : 1250px) {
-    table.tabela img{
-        border-radius: 4px;
-        width: 300px;
-        }    
+table.tabela img{
+width: 275px;
+}    
 }
 
 @media screen and (min-width : 1500px) {
-    table.tabela img{
-        border-radius: 4px;
-        width: 350px;
-        }    
+table.tabela img{
+width: 300px;
+}    
 }
 
 
 table h1 {
-    color:#22303d;
-    font-size: 2em;
-    font-family: "Nunito", serif;
-    font-weight: 800;
+color:#22303d;
+font-size: 2em;
+font-family: "Nunito", serif;
+font-weight: 800;
 }
 
 table small {
-    color:  #89c0f3;
-    font-family: "Poppins", serif;
-    font-weight: 700;
+color:  #89c0f3;
+font-family: "Poppins", serif;
+font-weight: 700;
 }
 
+
 footer {
-    color: white;
-    font-family: "Poppins", serif;
-    font-variant: small-caps;
-    font-size: 0.9em;
-    display: block;
-    margin: auto;
-    margin: 0px;
-    padding: 25px 0px;
-    background-color: rgb(14, 165, 224);
-    text-align: center;
+color: white;
+font-family: "Poppins", serif;
+font-variant: small-caps;
+font-size: 0.9em;
+display: block;
+margin: auto;
+margin: 0px;
+padding: 25px 0px;
+background-color: rgb(14, 165, 224);
+text-align: center;
 }
 
 footer a{
-    text-decoration: none;
-    color: black;
+text-decoration: none;
+color: black;
 }
 footer a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
