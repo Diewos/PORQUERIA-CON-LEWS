@@ -118,8 +118,9 @@ nav a:hover {
 
 
 div.imagem {
-margin: auto;
+margin: 75px auto;
 background-image: url("img/meio.jpg");
+background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -136,22 +137,23 @@ background-color: rgba(0, 0, 0, 0.466);
 }
 
 div.caixa p{
+width: 90%;
 font-family: "Nunito", serif;
 font-weight: 800;
+font-style: italic;
 font-size: 1.1em;
 text-align: center;
 color: white;
 text-align: center;
-margin:  0px 150px;
+margin:  0% auto;
 } 
 
 table.tabela {
 width: 80%;
 margin: 100px auto;
 border-collapse: separate;
-border-spacing: 30px 0;
+border-spacing: 25px 0;
 }
-
 
 .paragrafito{
 color: #5d75aa;
@@ -162,29 +164,30 @@ font-size: 0.8em;
 font-family: "Poppins", serif;
 }
 
+/*Media Queries para as Imagems da tabela*/
 
 table.tabela img{
 border-radius: 4px;
-width: 100px;
+width: 75px;
 }   
 
 
 @media screen and (min-width : 800px) {
 table.tabela img{
-width: 200px;
+width: 100px;
 }    
 }
 
 
 @media screen and (min-width : 1000px) {
 table.tabela img{
-width: 250px;
+width: 200px;
 }    
 }
 
 @media screen and (min-width : 1250px) {
 table.tabela img{
-width: 275px;
+width: 250px;
 }    
 }
 
@@ -195,7 +198,7 @@ width: 300px;
 }
 
 
-table h1 {
+td.titulo {
 color:#22303d;
 font-size: 2em;
 font-family: "Nunito", serif;
@@ -205,18 +208,18 @@ font-weight: 800;
 table small {
 color:  #89c0f3;
 font-family: "Poppins", serif;
+font-size: 0.6em;
 font-weight: 700;
 }
 
 
 footer {
-color: white;
-font-family: "Poppins", serif;
-font-variant: small-caps;
-font-size: 0.9em;
 display: block;
-margin: auto;
-margin: 0px;
+margin: 0px auto;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-variant: small-caps;
+font-size: 1.1em;
 padding: 25px 0px;
 background-color: rgb(14, 165, 224);
 text-align: center;
@@ -225,6 +228,7 @@ text-align: center;
 footer a{
 text-decoration: none;
 color: black;
+font-size: 0.8em;
 }
 footer a:hover {
 text-decoration: underline;
